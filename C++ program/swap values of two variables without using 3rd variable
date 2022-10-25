@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cout<<"Enter value of 1st variable - a : ";
+    cin >> a;
+    cout<<"Enter value of 2nd variable - b : ";
+    cin >> b;
+    b=a+b;
+    a=b-a;
+    b=b-a;
+    cout<<"\nResult after Swapping - \n"<<endl;
+    cout<< "Value in variable a : "<< a<<endl;
+    cout<< "Value in variable b : "<< b;
+    
+
+    return 0;
+}
